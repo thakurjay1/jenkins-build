@@ -10,7 +10,7 @@ public class JenkinsController {
 
 	@PostMapping
 	public String createData() {
-		System.out.println("Welcome to Jenkins");
+		System.out.println("Welcome to Jenkins, Here you will learn about Github Build using Poll SCM");
 		return "Welcome to Jenkins";
 	}
 }
